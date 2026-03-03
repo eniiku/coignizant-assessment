@@ -21,11 +21,12 @@ export async function POST(request: Request) {
     }
 
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent`,
       {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+      'x-goog-api-key': apiKey,
         },
         body: JSON.stringify({
           contents: [
