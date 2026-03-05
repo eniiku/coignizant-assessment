@@ -1,6 +1,8 @@
 # AI Chat App
 
-A modern chat interface powered by Google Gemini AI.
+A simple chat interface powered by Google Gemini AI.
+
+https://github.com/user-attachments/assets/9f6413f7-d981-4ce6-bf26-9e0e982920ce
 
 ## Setup
 
